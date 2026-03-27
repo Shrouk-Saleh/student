@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="shrouk_12259_project/shrouk_12259_project.vcxproj" />
+</Solution>
