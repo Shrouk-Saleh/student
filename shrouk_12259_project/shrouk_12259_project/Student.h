@@ -4,22 +4,23 @@
 #include "Person.h"
 #include <set>
 #include <string>
+using namespace std;
 
 class Student : public Person {
 private:
-    int    id;
+    int id;
     double gpa;
     set<string> courses;
 
 public:
     Student(int id, string name, double gpa);
 
-    int getId()  const;
-    double getGpa() const;
+    int getId();
+    double getGpa();
 
-    bool enrollCourse(const string& course);
-    void showCourses() const;
-    void display() const;
+    bool enrollCourse(string course);
+    void showCourses();
+    void display();
 };
 
 #endif
